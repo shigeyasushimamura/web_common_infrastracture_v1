@@ -1,3 +1,5 @@
+/* eslint-disable no-console */
+
 export default class log {
   static info = (obj) => {
     console.log(obj);
