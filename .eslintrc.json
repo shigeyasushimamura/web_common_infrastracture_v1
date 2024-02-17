@@ -1,3 +1,12 @@
 {
-  "extends": "next/core-web-vitals"
+  "extends": "next/core-web-vitals",
+  "rules": {},
+  "overrides": [
+    {
+      "files": ["*.js", "!log.js"],
+      "rules": {
+        "no-console": ["error", { "allow": ["warn", "error"] }]
+      }
+    }
+  ]
 }
