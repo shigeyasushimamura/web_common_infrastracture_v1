@@ -2,12 +2,12 @@
 
 export default class log {
   static info = (obj) => {
-    console.log(obj);
+    console.info(obj);
   };
   static warn = (obj) => {
-    console.log(obj);
+    console.warn(obj);
   };
   static error = (obj) => {
-    console.log(obj);
+    console.error(obj);
   };
 }
